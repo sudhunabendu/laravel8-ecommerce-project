@@ -24,11 +24,35 @@ $(document).ready(function(){
   })
 });
 </script> -->
-</body>
 <style>
 .custom-login{
-  height: 475px;
+  height:500px;
   padding-top: 100px;
 }
+.slider{
+  height: 400px ;
+
+}
+.tranding-image{
+  height: 100px;
+}
+.tranding-item{
+  float: left;
+  width: 20%;
+}
+/* .custom-product{
+  height: 600px;!important
+} */
+.tranding-wrapper{
+  margin: 20px;
+}
+.detail-img{
+  height: 200px;
+}
+.search{
+  width: 600px !important;
+}
 </style>
+</body>
+
 </html>
