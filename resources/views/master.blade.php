@@ -26,8 +26,8 @@ $(document).ready(function(){
 </script> -->
 <style>
 .custom-login{
-  height:500px;
-  padding-top: 100px;
+  height:600px;
+  padding-top: 15px;
 }
 .slider{
   height: 400px ;

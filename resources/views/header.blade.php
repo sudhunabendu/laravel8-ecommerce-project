@@ -8,7 +8,6 @@ if(Session::has('user')){
 }
 
 
-
 ?>
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,11 +20,9 @@ if(Session::has('user')){
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">Orders <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/myorder">Orders <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Signup <span class="sr-only">(current)</span></a>
-      </li>
+     
       <!-- <li class="nav-item ">
         <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
       </li> -->
@@ -44,6 +41,9 @@ if(Session::has('user')){
     @else
     <li class="nav-item ">
         <a class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/register">Signup <span class="sr-only">(current)</span></a>
       </li>
     @endif
     </ul>
